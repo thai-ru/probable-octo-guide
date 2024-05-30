@@ -9,7 +9,6 @@ import Foundation
 
 @Observable
 class ModelData {
-    
     // Load the data as an Array
 
     var landmarks: [Landmark]  = load("landmarkData.json")
