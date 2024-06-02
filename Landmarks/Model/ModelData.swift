@@ -12,6 +12,7 @@ class ModelData {
     // Load the data as an Array
 
     var landmarks: [Landmark]  = load("landmarkData.json")
+    var hikes: [Hike] = load("hikeData.json")
 }
 
 
